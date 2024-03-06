@@ -1,0 +1,32 @@
+/* This is a stylesheet for assignment3.html */
+
+#contactbox {
+    color:black;
+    background-color: rgb(250, 149, 214);
+  }
+
+.spantaghehe {
+    color: purple;
+    background-color: blanchedalmond;
+}
+.h1colors {
+    background-color: peachpuff;
+    color:darkred ;
+
+}
+#h2funcolor {
+  background-color: bisque;
+  color:palevioletred;
+}
+
+  a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: yellow;
+  }        
