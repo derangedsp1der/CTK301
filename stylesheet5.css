@@ -1,0 +1,86 @@
+/* This is a stylesheet for assignment4.html */
+nav ul {
+    list-style-type: none; 
+    margin:0;
+    padding: 0;
+  }
+nav li {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: darkblue;
+    display: block;
+}
+nav li a:hover {
+    background-color: blue;
+  }
+nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+  }
+.helvetica1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+.helvetica2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+header {
+    background-color:#ffffff;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 10px;
+    
+}
+body {
+    background-image: url(a5bg.png) ;
+}
+main {
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+  
+}
+
+footer {
+    border: 2px solid #ffffff;
+    padding: 30px ;
+    margin: 20px ;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;    
+}
+
+.justified {
+    text-align: justify;
+    font-style: normal  
+}
+
+a.link {
+    color: blue;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a.link:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
