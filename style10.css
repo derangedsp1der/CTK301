@@ -128,3 +128,8 @@ color: white;
     text-align: center;
     padding: 14px;
   }
+ #socialspgs .f-carousel__slide {
+    text-align: center;
+    padding: 75px;
+  }
+
