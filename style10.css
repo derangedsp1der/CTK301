@@ -11,6 +11,7 @@ header {
     font-weight: 400;
     font-style: normal;
 }
+
 img{
     width: 300px;
 
@@ -52,6 +53,7 @@ nav li {
 body { 
     background-color: rgb(164, 117, 124);
     grid-column: span 12px;
+   
 }
 
 footer {
@@ -72,8 +74,8 @@ footer {
     display: grid;
     grid-template-columns: 200px;
     margin: 0;
-    width: 95.5vw;
-    height: 90vh;
+    width: 95vw;
+    height: 90.5vh;
   }
 .SkullFlower {
     float: right ;
@@ -128,8 +130,7 @@ color: white;
     text-align: center;
     padding: 14px;
   }
- #socialspgs .f-carousel__slide {
+  #socialspgs .f-carousel__slide {
     text-align: center;
     padding: 75px;
   }
-
