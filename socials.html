@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Main Portfolio Page</title>
     <link href="style10.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 </head>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,21 +30,25 @@
   </nav>
 <main>
   <h2 class="bottomborder">Welcome!</h2>
-  <img class= "dropshadowbox" img src="blackcat.jpg" alt="a black cat with big eyes">
   <p>Socials are down below!!</p>
 
   <p>Welcome to My socials!!! Down Below are images of what my socials look like along with links!</p>
-  
-<img class="huhgif" img src="cathuh.gif" alt="Cat meowing but it looks like he's saying huh">
-</main>
-<footer>
-  <p>Here's a link to my socials! 
-<a href="https://www.instagram.com/almostdeadinside.png/" target="" class="bi bi-instagram"></a> <a href="https://www.facebook.com/alexanderwschwartz" target="_blank" class= "bi bi-facebook">
-</a> 
+  <div id="socialspgs" class="f-carousel">
+    <div class="f-carousel__slide"><img src="Instagrampg.png"></div>
+    <div class="f-carousel__slide"><img src="facebookpg.png">
+    </div>
+</div>
+<p>Here's a link to my socials! <a href="https://www.instagram.com/almostdeadinside.png/" target="" class="bi bi-instagram"></a> 
+<a href="https://www.facebook.com/alexanderwschwartz" target="_blank" class= "bi bi-facebook"> 
 </a>
 </p>
-</footer>
+</main>
 </div>
+<script>
+  const container = document.getElementById("socialspgs");
+  const options = { infinite: false };
+  new Carousel(container, options);
+</script>
 </body>
 </html>
 <style>
